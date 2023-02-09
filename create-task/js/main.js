@@ -6,5 +6,6 @@ const token =
 const client = new BrawlStars.Client(token);
 
 (async () => {
-  const brawlers = await client.getBrawlers("#PLAYERTAG");
+  const player = await client.getPlayer("#PLAYERTAG");
+  const playerClub = await client.getClub(player.club.tag);
 })();
