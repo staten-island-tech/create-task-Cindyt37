@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T14:36:30.403Z" agent="5.0 (Windows)" etag="orss9j-AKh8B-B00zNPi" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T14:47:24.319Z" agent="5.0 (Windows)" etag="vyvexoyrTTHiEloAD_JA" version="20.8.20" type="github">
   <diagram name="Page-1" id="A4J7kBLjLPWY3mXLhDyU">
-    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1XFozRBMGlKFiIqstPRH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-1" target="1XFozRBMGlKFiIqstPRH-2">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1XFozRBMGlKFiIqstPRH-1" target="1XFozRBMGlKFiIqstPRH-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="170" />
@@ -12,30 +12,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-1" value="Start by displaying all brawlers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-1" value="Start by displaying all brawlers" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-2" target="1XFozRBMGlKFiIqstPRH-10">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1XFozRBMGlKFiIqstPRH-2" target="1XFozRBMGlKFiIqstPRH-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-2" target="1XFozRBMGlKFiIqstPRH-12">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="1XFozRBMGlKFiIqstPRH-2" target="1XFozRBMGlKFiIqstPRH-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-2" value="Search for brawlers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-2" value="Search for brawlers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-4" target="1XFozRBMGlKFiIqstPRH-6">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1XFozRBMGlKFiIqstPRH-4" target="1XFozRBMGlKFiIqstPRH-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-4">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1XFozRBMGlKFiIqstPRH-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-4" value="Use the filter buttons" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-4" value="Use the filter buttons" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1XFozRBMGlKFiIqstPRH-4">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="1XFozRBMGlKFiIqstPRH-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="130" as="sourcePoint" />
             <mxPoint x="390" y="210" as="targetPoint" />
@@ -45,17 +45,125 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-6" value="Filter brawlers by rarity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="31tgKnrHpDBwrVBuebrI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-9" value="Filter maps by active or upcoming" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="31tgKnrHpDBwrVBuebrI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="440" />
+              <mxPoint x="760" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="430" />
+              <mxPoint x="900" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-6" target="31tgKnrHpDBwrVBuebrI-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-6" value="Filter brawlers by rarity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-9" value="Filter maps by active or upcoming" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-10" value="Show brawler" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-10" value="Show brawler" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1XFozRBMGlKFiIqstPRH-12" value="Show error messages" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="1XFozRBMGlKFiIqstPRH-12" value="Show error messages" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-2" target="31tgKnrHpDBwrVBuebrI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-2" value="Starter Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-6" value="Gives you starter brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-9" target="31tgKnrHpDBwrVBuebrI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-9" value="Rare Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-10" value="Gives you rare brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-12" target="31tgKnrHpDBwrVBuebrI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-12" value="Super rare Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-13" value="Gives you super rare brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-19" target="31tgKnrHpDBwrVBuebrI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-19" value="epic Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-20" value="Gives you epic brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-22" target="31tgKnrHpDBwrVBuebrI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-22" value="legendary Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-23" value="Gives you legendary brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-25" target="31tgKnrHpDBwrVBuebrI-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-25" value="mythic Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-26" value="Gives you mythic brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-28" target="31tgKnrHpDBwrVBuebrI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-28" value="Chromatic Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-29" value="Gives you chromatic brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="31tgKnrHpDBwrVBuebrI-31" target="31tgKnrHpDBwrVBuebrI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-31" value="Reset Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31tgKnrHpDBwrVBuebrI-32" value="Reset to all brawlers" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="630" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
