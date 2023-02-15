@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T14:33:52.341Z" agent="5.0 (Windows)" version="20.8.16" etag="_rYS_HGpt_E5evAnlekb" type="github"><diagram name="Page-1" id="A4J7kBLjLPWY3mXLhDyU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-15T14:35:51.185Z" agent="5.0 (Windows)" etag="8Y9hH69YSVPuHS1QXoJL" version="20.8.16" type="github">
+  <diagram name="Page-1" id="A4J7kBLjLPWY3mXLhDyU">
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1XFozRBMGlKFiIqstPRH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-1" target="1XFozRBMGlKFiIqstPRH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="170" />
+              <mxPoint x="380" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-1" value="Start by displaying all brawlers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-2" value="Search for brawlers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-4" target="1XFozRBMGlKFiIqstPRH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1XFozRBMGlKFiIqstPRH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-4" value="Use the filter buttons" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1XFozRBMGlKFiIqstPRH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="130" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="170" />
+              <mxPoint x="590" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-6" value="Filter brawlers by rarity" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1XFozRBMGlKFiIqstPRH-9" value="Filter maps by active or upcoming" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
