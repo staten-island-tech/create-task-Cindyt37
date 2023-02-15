@@ -1,12 +1,12 @@
 .header {
-    height: 90vh;
+    height: 77vh;
     background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2019/06/25113651/khj.jpg");
 }
 
 /* Navigation Bar CSS */
 .nav-bar {
     height: 9.5vh;
-    background-color: rgba(127, 182, 255, 0.9);
+    background-color: rgba(127, 182, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,3 +36,4 @@
     box-shadow: 0 6px 0.7rem rgb(255, 255, 255);
     transition-duration: 0.7s;
 }
+

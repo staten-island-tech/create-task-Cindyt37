@@ -10,7 +10,8 @@ async function getBrawlers(URL_brawlers) {
     const data = await response.json(); //makes the data into JSON object so we ca use
     function displayBrawlers() {
       data.list.forEach((brawler) => {
-        document.api_output.insertAdjacentHTML("afterbegin"),
+        document.getElementById("api-output").insertAdjacentHTML(
+          "beforeend",
           `<div class="brawler-card" id="${brawler.name}">         
             <div class="brawler-imgBox">           
               <img class="brawler-img" src="${brawler.imageUrl}" alt="${brawler.name}"/>
@@ -20,7 +21,8 @@ async function getBrawlers(URL_brawlers) {
               <h4 class="brawler-rarity">${brawler.rarity.name}</h4>           
               <h3 class="brawler-description">${brawler.description}</h3>         
             </div>       
-          </div>`;
+          </div>`
+        );
       });
     }
     displayBrawlers();

@@ -6,6 +6,12 @@ html, body, * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.main, #api-output {
   background-color: rgba(170, 228, 255, 0.5);
 }
 
+.filter {
+  text-decoration: underline;
+}
