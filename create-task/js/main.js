@@ -1,8 +1,7 @@
-import "../styles/style.css";
+import "../styles/main.css";
 import "./dom";
 
 const URL_brawlers = "https://api.brawlapi.com/v1/brawlers";
-const URL_events = "https://api.brawlapi.com/v1/events";
 
 async function getBrawlers(URL_brawlers) {
   try {
@@ -11,7 +10,7 @@ async function getBrawlers(URL_brawlers) {
     function displayBrawlers() {
       data.list.forEach((brawler) => {
         document.getElementById("api-output").insertAdjacentHTML(
-          "beforeend",
+          "afterbegin",
           `<div class="brawler-card" id="${brawler.name}">         
             <div class="brawler-imgBox">           
               <img class="brawler-img" src="${brawler.imageUrl}" alt="${brawler.name}"/>
@@ -19,7 +18,7 @@ async function getBrawlers(URL_brawlers) {
             <div class="brawler-descriptions">           
               <h3 class="brawler-name">${brawler.name}</h3>           
               <h4 class="brawler-rarity">${brawler.rarity.name}</h4>           
-              <h3 class="brawler-description">${brawler.description}</h3>         
+              <h3 class="brawler-description"> ${brawler.description}</h3>
             </div>       
           </div>`
         );

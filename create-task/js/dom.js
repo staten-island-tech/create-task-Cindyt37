@@ -1,3 +1,5 @@
+import "./domfunctions";
+
 const DOMSelectors = {
   api_output: document.getElementById("api-output"),
   active: document.getElementById("active"),
@@ -14,20 +16,16 @@ const DOMSelectors = {
 
 export { DOMSelectors };
 
-function initial() {
-  list.forEach((brawler) => {
-    DOMSelectors.api_output.insertAdjacentHTML(
-      "beforeend",
-      `<div class="brawler-card" id="${brawler.name}">         
-        <div class="brawler-imgBox">           
-          <img class="brawler-img" src="${brawler.imageUrl}" alt="${brawler.name}"/>
-        </div>         
-        <div class="brawler-descriptions">           
-          <h3 class="brawler-name">${brawler.name}</h3>           
-          <h4 class="brawler-rarity">${brawler.rarity.name}</h4>           
-          <h3 class="brawler-description">${brawler.description}</  h3>         
-        </div>       
-      </div>`
-    );
-  });
+function clear() {
+  DOMSelectors.api_output.innerHTML = "";
 }
+
+document.getElementById("reset").addEventListener("click", function () {
+  clear();
+  initial();
+});
+
+document.getElementById("starter").addEventListener("click", function () {
+  clear();
+  starter();
+});
