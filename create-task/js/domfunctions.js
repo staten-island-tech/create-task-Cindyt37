@@ -100,6 +100,39 @@ function epic() {
   getepicBrawlers(URL_brawlers);
 }
 
+function legendary() {
+  async function getlegendaryBrawlers(URL_brawlers) {
+    try {
+      const response = await fetch(URL_brawlers);
+      const data = await response.json(); //makes the data into JSON object so we ca use
+      function displayLegendary() {
+        data.list
+          .filter((legendary) => legendary.rarity.name.includes("Legendary"))
+          .forEach((legendary) => {
+            document.getElementById("api-output").insertAdjacentHTML(
+              "afterbegin",
+              `<div class="brawler-card" id="${legendary.name}">
+                        <div class="brawler-imgBox">
+                          <img class="brawler-img" src="${legendary.imageUrl}" alt="${legendary.name}"/>
+                        </div>
+                        <div class="brawler-descriptions">
+                          <h3 class="brawler-name">${legendary.name}</h3>
+                          <h4 class="brawler-rarity">${legendary.rarity.name}</h4>
+                          <h3 class="brawler-description"> ${legendary.description}</h3>
+                        </div>
+                      </div>`
+            );
+          });
+      }
+      displayLegendary();
+    } catch (error) {
+      console.log(error);
+      alert("An error occured.");
+    }
+  }
+  getlegendaryBrawlers(URL_brawlers);
+}
+
 function clear() {
   DOMSelectors.api_output.innerHTML = "";
 }
@@ -117,4 +150,9 @@ document.getElementById("rare").addEventListener("click", function () {
 document.getElementById("epic").addEventListener("click", function () {
   clear();
   epic();
+});
+
+document.getElementById("legendary").addEventListener("click", function () {
+  clear();
+  legendary();
 });
