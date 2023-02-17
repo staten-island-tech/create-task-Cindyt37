@@ -1,5 +1,5 @@
 import "../styles/main.css";
-import "./dom";
+import "./domfunctions";
 
 const URL_brawlers = "https://api.brawlapi.com/v1/brawlers";
 

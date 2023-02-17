@@ -1,5 +1,3 @@
-import "./domfunctions";
-
 const DOMSelectors = {
   api_output: document.getElementById("api-output"),
   active: document.getElementById("active"),
@@ -15,17 +13,3 @@ const DOMSelectors = {
 };
 
 export { DOMSelectors };
-
-function clear() {
-  DOMSelectors.api_output.innerHTML = "";
-}
-
-document.getElementById("reset").addEventListener("click", function () {
-  clear();
-  initial();
-});
-
-document.getElementById("starter").addEventListener("click", function () {
-  clear();
-  starter();
-});
