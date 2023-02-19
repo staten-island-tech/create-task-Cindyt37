@@ -1,7 +1,6 @@
 import { DOMSelectors } from "./dom";
 
 const URL_brawlers = "https://api.brawlapi.com/v1/brawlers";
-const URL_events = "https://api.brawlapi.com/v1/events";
 
 function initial() {
   async function getallBrawlers(URL_brawlers) {
@@ -34,6 +33,39 @@ function initial() {
   getallBrawlers(URL_brawlers);
 }
 
+function starter() {
+  async function getstarterBrawlers(URL_brawlers) {
+    try {
+      const response = await fetch(URL_brawlers);
+      const data = await response.json(); //makes the data into JSON object so we ca use
+      function displayStarter() {
+        data.list
+          .filter((starter) => starter.rarity.name.includes("Common"))
+          .forEach((starter) => {
+            document.getElementById("api-output").insertAdjacentHTML(
+              "afterbegin",
+              `<div class="brawler-card" id="${starter.name}">
+                    <div class="brawler-imgBox">
+                      <img class="brawler-img" src="${starter.imageUrl}" alt="${starter.name}"/>
+                    </div>
+                    <div class="brawler-descriptions">
+                      <h3 class="brawler-name">${starter.name}</h3>
+                      <h4 class="brawler-rarity" id=${starter.rarity.name}>${starter.rarity.name}</h4>
+                      <h3 class="brawler-description"> ${starter.description}</h3>
+                    </div>
+                  </div>`
+            );
+          });
+      }
+      displayStarter();
+    } catch (error) {
+      console.log(error);
+      alert("An error occured.");
+    }
+  }
+  getstarterBrawlers(URL_brawlers);
+}
+
 function rare() {
   async function getrareBrawlers(URL_brawlers) {
     try {
@@ -41,7 +73,7 @@ function rare() {
       const data = await response.json(); //makes the data into JSON object so we ca use
       function displayRare() {
         data.list
-          .filter((rare) => rare.rarity.name.includes("Rare"))
+          .filter((rare) => rare.rarity.id === (2))
           .forEach((rare) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
@@ -65,6 +97,39 @@ function rare() {
     }
   }
   getrareBrawlers(URL_brawlers);
+}
+
+function superrare() {
+  async function getsuperrareBrawlers(URL_brawlers) {
+    try {
+      const response = await fetch(URL_brawlers);
+      const data = await response.json(); //makes the data into JSON object so we ca use
+      function displaySuperrare() {
+        data.list
+          .filter((superrare) => superrare.rarity.name.includes("Super Rare"))
+          .forEach((superrare) => {
+            document.getElementById("api-output").insertAdjacentHTML(
+              "afterbegin",
+              `<div class="brawler-card" id="${superrare.name}">
+                    <div class="brawler-imgBox">
+                      <img class="brawler-img" src="${superrare.imageUrl}" alt="${superrare.name}"/>
+                    </div>
+                    <div class="brawler-descriptions">
+                      <h3 class="brawler-name">${superrare.name}</h3>
+                      <h4 class="brawler-rarity">${superrare.rarity.name}</h4>
+                      <h3 class="brawler-description"> ${superrare.description}</h3>
+                    </div>
+                  </div>`
+            );
+          });
+      }
+      displaySuperrare();
+    } catch (error) {
+      console.log(error);
+      alert("An error occured.");
+    }
+  }
+  getsuperrareBrawlers(URL_brawlers);
 }
 
 function epic() {
@@ -133,6 +198,72 @@ function legendary() {
   getlegendaryBrawlers(URL_brawlers);
 }
 
+function mythic() {
+  async function getmythicBrawlers(URL_brawlers) {
+    try {
+      const response = await fetch(URL_brawlers);
+      const data = await response.json(); //makes the data into JSON object so we ca use
+      function displayMythic() {
+        data.list
+          .filter((mythic) => mythic.rarity.name.includes("Mythic"))
+          .forEach((mythic) => {
+            document.getElementById("api-output").insertAdjacentHTML(
+              "afterbegin",
+              `<div class="brawler-card" id="${mythic.name}">
+                        <div class="brawler-imgBox">
+                          <img class="brawler-img" src="${mythic.imageUrl}" alt="${mythic.name}"/>
+                        </div>
+                        <div class="brawler-descriptions">
+                          <h3 class="brawler-name">${mythic.name}</h3>
+                          <h4 class="brawler-rarity">${mythic.rarity.name}</h4>
+                          <h3 class="brawler-description"> ${mythic.description}</h3>
+                        </div>
+                      </div>`
+            );
+          });
+      }
+      displayMythic();
+    } catch (error) {
+      console.log(error);
+      alert("An error occured.");
+    }
+  }
+  getmythicBrawlers(URL_brawlers);
+}
+
+function chromatic() {
+  async function getchromaticBrawlers(URL_brawlers) {
+    try {
+      const response = await fetch(URL_brawlers);
+      const data = await response.json(); //makes the data into JSON object so we ca use
+      function displayChromatic() {
+        data.list
+          .filter((chromatic) => chromatic.rarity.name.includes("Chromatic"))
+          .forEach((chromatic) => {
+            document.getElementById("api-output").insertAdjacentHTML(
+              "afterbegin",
+              `<div class="brawler-card" id="${chromatic.name}">
+                        <div class="brawler-imgBox">
+                          <img class="brawler-img" src="${chromatic.imageUrl}" alt="${chromatic.name}"/>
+                        </div>
+                        <div class="brawler-descriptions">
+                          <h3 class="brawler-name">${chromatic.name}</h3>
+                          <h4 class="brawler-rarity">${chromatic.rarity.name}</h4>
+                          <h3 class="brawler-description"> ${chromatic.description}</h3>
+                        </div>
+                      </div>`
+            );
+          });
+      }
+      displayChromatic();
+    } catch (error) {
+      console.log(error);
+      alert("An error occured.");
+    }
+  }
+  getchromaticBrawlers(URL_brawlers);
+}
+
 function clear() {
   DOMSelectors.api_output.innerHTML = "";
 }
@@ -142,9 +273,19 @@ document.getElementById("reset").addEventListener("click", function () {
   initial();
 });
 
+document.getElementById("starter").addEventListener("click", function () {
+  clear();
+  starter();
+});
+
 document.getElementById("rare").addEventListener("click", function () {
   clear();
   rare();
+});
+
+document.getElementById("superrare").addEventListener("click", function () {
+  clear();
+  superrare();
 });
 
 document.getElementById("epic").addEventListener("click", function () {
@@ -155,4 +296,14 @@ document.getElementById("epic").addEventListener("click", function () {
 document.getElementById("legendary").addEventListener("click", function () {
   clear();
   legendary();
+});
+
+document.getElementById("mythic").addEventListener("click", function () {
+  clear();
+  mythic();
+});
+
+document.getElementById("chromatic").addEventListener("click", function () {
+  clear();
+  chromatic();
 });

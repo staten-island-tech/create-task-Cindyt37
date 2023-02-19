@@ -1,5 +1,4 @@
 @import "./header.css";
-@import "./filter.css";
 @import "./search.css";
 
 html, body, * {
@@ -8,7 +7,7 @@ html, body, * {
   box-sizing: border-box;
 }
 
-.main, #api-output {
+.body {
   background-color: rgba(170, 228, 255, 0.5);
 }
 

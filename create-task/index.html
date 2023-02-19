@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Create Task App</title>
   </head>
   <body>
     <section class="header">
@@ -15,32 +15,29 @@
       <a href="index.html"
         ><img
           class="logo"
+          id="home_logo"
           src="./brawlstars logo.png"
           alt="brawl_logo"
       /></img></a>
       <div class="nav-btn">
         <a class="nav-btn home" href="index.html">Home</a>
         <a class="nav-btn brawlers" href="#api-output">List of Brawlers</a>
-        <div class="search">
-          <form action="#">
-              <input type="text"
-                  placeholder=" Search Brawlers"
-                  name="search">
-              <button>
-                  <i class="fa fa-search"
-                      style="font-size: 20px;">
-                  </i>
-              </button>
-          </form>
-      </div>
+        <a href="search.html"
+        ><img
+          class="logo"
+          id="search_logo"
+          src="./search icon.png"
+          alt="search_logo"
+      /></img></a>
   </div>
       </div>
     </section>
-
+    
+    <section class="body">
     <div class="main">
       <div class="rarity">
         <h4 class="filter" id="rarity">Filter by Rarity:</h4>
-        <button class="rarityBtn" id="starter">Starting Brawlers</button>
+        <button class="rarityBtn" id="starter">Starting Brawler</button>
         <button class="rarityBtn" id="rare">Rare</button>
         <button class="rarityBtn" id="superrare">Super Rare</button>
         <button class="rarityBtn" id="epic">Epic</button>
@@ -49,15 +46,10 @@
         <button class="rarityBtn" id="chromatic">Chromatic</button>
         <button class="rarityBtn" id="reset">Reset to All Brawlers</button>
       </div>
-
-      <div class="event">
-        <h4 class="filter" id="events">Events:</h4>
-        <button class="eventBtn" id="active">Active Events</button>
-        <button class="eventBtn" id="upcoming">Upcoming Events</button>
-      </div>
     </div>
 
     <div id="api-output"></div>
+  </section>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
