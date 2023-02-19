@@ -23,7 +23,7 @@
       /></img></a>
       <div class="nav-btn">
         <a class="nav-btn home" href="index.html">Home</a>
-        <a class="nav-btn brawlers" href="#api-output">List of Brawlers</a>
+        <a class="nav-btn brawlers" href="#search-output">Search Result</a>
         <a href="search.html"
         ><img
           class="logo"
@@ -35,12 +35,15 @@
 </section>
 
 <section class="body">
-    <div id="container">
-        <div id="search">
-            <input id="searchInput" type="text" placeholder="Search for brawlers using brawler ID..." />
-        </div>
+    <div class="container">
+        <form class="search" id="form" action="submit">
+        <input
+            class="search-bar"
+            id="searchInput" 
+            type="text" 
+            placeholder="Search for brawlers using brawler ID...">
+        </form>
     </div>
-
     <div id="search-output"></div>
 </section>
     <script type="module" src="./js/search.js"></script>

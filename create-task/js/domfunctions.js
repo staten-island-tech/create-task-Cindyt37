@@ -17,8 +17,10 @@ function initial() {
                   </div>
                   <div class="brawler-descriptions">
                     <h3 class="brawler-name">${brawler.name}</h3>
-                    <h4 class="brawler-rarity">${brawler.rarity.name}</h4>
+                    <h4 class="brawler-rarity" id=${brawler.rarity.name}>${brawler.rarity.name}</h4>
                     <h3 class="brawler-description"> ${brawler.description}</h3>
+                    <h3 class="brawler-id">Brawler ID: ${brawler.id}</h3>
+                    <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                   </div>
                 </div>`
           );
@@ -52,6 +54,8 @@ function starter() {
                       <h3 class="brawler-name">${starter.name}</h3>
                       <h4 class="brawler-rarity" id=${starter.rarity.name}>${starter.rarity.name}</h4>
                       <h3 class="brawler-description"> ${starter.description}</h3>
+                      <h3 class="brawler-id">Brawler ID: ${starter.id}</h3>
+                      <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                     </div>
                   </div>`
             );
@@ -83,8 +87,10 @@ function rare() {
                     </div>
                     <div class="brawler-descriptions">
                       <h3 class="brawler-name">${rare.name}</h3>
-                      <h4 class="brawler-rarity">${rare.rarity.name}</h4>
+                      <h4 class="brawler-rarity" id=${rare.rarity.name}>${rare.rarity.name}</h4>
                       <h3 class="brawler-description"> ${rare.description}</h3>
+                      <h3 class="brawler-id">Brawler ID: ${rare.id}</h3>
+                      <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                     </div>
                   </div>`
             );
@@ -116,8 +122,10 @@ function superrare() {
                     </div>
                     <div class="brawler-descriptions">
                       <h3 class="brawler-name">${superrare.name}</h3>
-                      <h4 class="brawler-rarity">${superrare.rarity.name}</h4>
+                      <h4 class="brawler-rarity" id=${superrare.rarity.name[0]}>${superrare.rarity.name}</h4>
                       <h3 class="brawler-description"> ${superrare.description}</h3>
+                      <h3 class="brawler-id">Brawler ID: ${superrare.id}</h3>
+                      <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                     </div>
                   </div>`
             );
@@ -149,8 +157,10 @@ function epic() {
                       </div>
                       <div class="brawler-descriptions">
                         <h3 class="brawler-name">${epic.name}</h3>
-                        <h4 class="brawler-rarity">${epic.rarity.name}</h4>
+                        <h4 class="brawler-rarity" id=${epic.rarity.name}>${epic.rarity.name}</h4>
                         <h3 class="brawler-description"> ${epic.description}</h3>
+                        <h3 class="brawler-id">Brawler ID: ${epic.id}</h3>
+                        <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                       </div>
                     </div>`
             );
@@ -182,8 +192,10 @@ function legendary() {
                         </div>
                         <div class="brawler-descriptions">
                           <h3 class="brawler-name">${legendary.name}</h3>
-                          <h4 class="brawler-rarity">${legendary.rarity.name}</h4>
+                          <h4 class="brawler-rarity" id=${legendary.rarity.name}>${legendary.rarity.name}</h4>
                           <h3 class="brawler-description"> ${legendary.description}</h3>
+                          <h3 class="brawler-id">Brawler ID: ${legendary.id}</h3>
+                          <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                         </div>
                       </div>`
             );
@@ -215,8 +227,10 @@ function mythic() {
                         </div>
                         <div class="brawler-descriptions">
                           <h3 class="brawler-name">${mythic.name}</h3>
-                          <h4 class="brawler-rarity">${mythic.rarity.name}</h4>
+                          <h4 class="brawler-rarity" id=${mythic.rarity.name}>${mythic.rarity.name}</h4>
                           <h3 class="brawler-description"> ${mythic.description}</h3>
+                          <h3 class="brawler-id">Brawler ID: ${mythic.id}</h3>
+                          <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                         </div>
                       </div>`
             );
@@ -248,8 +262,10 @@ function chromatic() {
                         </div>
                         <div class="brawler-descriptions">
                           <h3 class="brawler-name">${chromatic.name}</h3>
-                          <h4 class="brawler-rarity">${chromatic.rarity.name}</h4>
+                          <h4 class="brawler-rarity" id=${chromatic.rarity.name}>${chromatic.rarity.name}</h4>
                           <h3 class="brawler-description"> ${chromatic.description}</h3>
+                          <h3 class="brawler-id">Brawler ID: ${chromatic.id}</h3>
+                          <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
                         </div>
                       </div>`
             );

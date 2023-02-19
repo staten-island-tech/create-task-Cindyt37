@@ -22,7 +22,7 @@
 }
 
 .body {
-    background-color: rgb(190, 255, 204);
+    background-color: rgba(190, 255, 204, 0.581);
 }
 
 /* Navigation Bar CSS */
@@ -62,23 +62,25 @@
 /*Search Bar*/
 #container {
     width: 75%;
-    margin: 0 auto;
     margin-top: 20px;
     background-color: transparent;
 }
-#search {
+.search {
     display: flex;
 }
 
-#search label {
+#form {
     font-size: 24px;
     font-weight: bold;
     margin-right: 15px;
 }
-#searchInput {
+.search-bar {
     display: inherit;
     width: 100%;
     padding: 0.5rem 0.5rem;
+}
+.search-icon {
+    height: 20px;
 }
 
 /* Brawler Cards Results*/
@@ -94,36 +96,76 @@
   
   .brawler-card {
     margin-top: 20px;
-    border: 10px solid rgba(68, 80, 247, 0.459);
+    border: 10px solid rgba(68, 247, 80, 0.459);
     border-radius: 25px;
     padding: 6px;
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 60%;
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgba(68, 80, 247, 0.459);
+    background-color: rgba(68, 247, 80, 0.051);
   }
   
   .brawler-imgBox {
     margin-right: 1rem;
   }
-  
+  .brawler-img {
+    width: 190%;
+  }
+
   .brawler-descriptions {
-    width: 60%;
+    width: 50%;
   }
   .brawler-name {
     font-size: 40px;
-    color:rgb(0, 46, 146);
+    color:rgb(0, 134, 31);
   }
   .brawler-rarity {
     font-size: 20px;
   }
-  .brawler-description {
-    text-align: justify;
-  }
   .brawler-description:before {
-    color: rgb(0, 46, 146);
+    color: rgb(0, 134, 31);
     text-decoration: underline;
     content: "Description:"
+  }
+  .brawler-id:before {
+    color: rgb(0, 134, 31);
+    text-decoration: underline;
+    content: "Brawler ID:"
+  }
+  .info-link {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .info-link:before {
+    content: "Learn more at";
+  }
+  .info-link:hover {
+    color: blue;
+  }
+  #Common {
+    color: rgb(187, 233, 255);
+  }
+  #Rare {
+    color: rgb(97, 255, 44);
+  }
+  #Super {
+    color: rgb(97, 177, 255);
+  }
+  #Epic {
+    color: rgb(204, 87, 254);
+  }
+  #Legendary {
+    color: rgb(255, 238, 0);
+  }
+  #Mythic {
+    color: rgb(245, 93, 107);
+  }
+  #Chromatic {
+    color: rgb(241, 139, 1);
+  }
+
+  .error-msg {
+    font-size: 20px;
   }
