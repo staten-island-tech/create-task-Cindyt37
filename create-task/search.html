@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Task App</title>
+  </head>
+  <body>
+<section class="header">
+      <div class="heading">
+        <span class="title">Search For Brawlers:</span>
+      </div>
+</section>
+
+<section class="nav-bar">
+      <a href="index.html"
+        ><img
+          class="logo"
+          id="home_logo"
+          src="./brawlstars logo.png"
+          alt="brawl_logo"
+      /></img></a>
+      <div class="nav-btn">
+        <a class="nav-btn home" href="index.html">Home</a>
+        <a class="nav-btn brawlers" href="#api-output">List of Brawlers</a>
+        <a href="search.html"
+        ><img
+          class="logo"
+          id="search_logo"
+          src="./search icon.png"
+          alt="search_logo"
+      /></img></a>
+  </div>
+</section>
+
+<section class="body">
+    <div id="container">
+        <div id="search">
+            <input id="searchInput" type="text" placeholder="Search for brawlers using brawler ID..." />
+        </div>
+    </div>
+
+    <div id="search-output"></div>
+</section>
+    <script type="module" src="./js/search.js"></script>
+</body>
+</html>

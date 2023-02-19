@@ -1,5 +1,5 @@
 @import "./header.css";
-@import "./search.css";
+@import "./media.css";
 
 html, body, * {
   margin: 0;
@@ -47,7 +47,7 @@ html, body, * {
   width: 60%;
 }
 .brawler-name {
-  font-size: 40px;
+  font-size: 35px;
   color:rgb(0, 46, 146);
 }
 .brawler-rarity {
@@ -60,4 +60,12 @@ html, body, * {
   color: rgb(0, 46, 146);
   text-decoration: underline;
   content: "Description:"
+}
+.brawler-id {
+  font-size: 20px;
+  color:rgb(0, 46, 146);
+}
+.id-info {
+  font-size: 12px;
+  color:rgb(0, 46, 146);
 }
