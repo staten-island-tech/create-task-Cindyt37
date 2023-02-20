@@ -16,14 +16,13 @@
 }
 .logo {
     height: 8.5vh;
-    margin-top: 2px;
     margin-left: 2rem;
     background-color: transparent;
 }
 .nav-btn {
     display: flex;
     flex-direction: row;
-    margin-top: 2px;
+    margin-top: 9px;
     margin-right: 1rem;
     font-size: 2rem;
     justify-content: space-around;
