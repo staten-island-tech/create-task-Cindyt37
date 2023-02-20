@@ -1,6 +1,25 @@
 import "../styles/search.css";
 import { DOMSelectors } from "./dom";
 
+async function displayID() {
+    try {
+        const response = await fetch("https://api.brawlapi.com/v1/brawlers");
+        const data = await response.json();
+        function displayids() {
+            data.list.forEach((key) => {
+                document.getElementById("key-box").insertAdjacentHTML("afterbegin",
+                `<div class="keys">
+                    <h3 class="key">${key.name} → ${key.id}</h3>
+                </div>`)
+            });
+        }
+        displayids();
+    } catch (error) {
+        console.log(error);
+    }
+}
+displayID();
+
 async function getData(brawlerID) {
     try {
         const response = await fetch(`https://api.brawlapi.com/v1/brawlers/${brawlerID}`);
@@ -37,4 +56,5 @@ DOMSelectors.form.addEventListener("submit", function (event) {
     DOMSelectors.search_output.innerHTML = "";
     event.preventDefault();
     getData(DOMSelectors.input.value);
+    DOMSelectors.input.value = "";
   });

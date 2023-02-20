@@ -21,10 +21,6 @@
     text-decoration: underline;
 }
 
-.body {
-    background-color: rgba(190, 255, 204, 0.581);
-}
-
 /* Navigation Bar CSS */
 .nav-bar {
     height: 9.5vh;
@@ -59,24 +55,56 @@
     transition-duration: 0.7s;
 }
 
+.body {
+  background-color: rgba(190, 255, 204, 0.581);
+  display: flex;
+  flex-direction: row;
+  border-color: rgba(68, 247, 80, 0.459);
+  justify-content: space-between;
+  align-items: top;
+  position: sticky;
+  top: 0;
+}
+.ID-lookup-box {
+  background-color: rgba(68, 247, 80, 0.051);
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 10px solid rgba(68, 247, 80, 0.459);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.keyTitle {
+  font-size: 20px;
+}
+.keys {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
 /*Search Bar*/
 #container {
-    width: 75%;
+    width: 70%;
     margin-top: 20px;
     background-color: transparent;
+    align-items: right;
 }
 .search {
     display: flex;
+    width: 940%;
+    margin-left: 5px;
+    margin-top: 20px;
 }
 
 #form {
     font-size: 24px;
     font-weight: bold;
     margin-right: 15px;
+    width: 940%;
 }
 .search-bar {
     display: inherit;
-    width: 100%;
+    width: 500%;
     padding: 0.5rem 0.5rem;
 }
 .search-icon {
@@ -88,10 +116,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: top;
     width: 98.5vw;
     justify-content: space-around;
-    align-content: space-around;
+    align-content: flex-start;
+    margin-top: 50px;
   }
   
   .brawler-card {
@@ -101,7 +130,7 @@
     padding: 6px;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
     text-align: center;
     margin-bottom: 20px;
     background-color: rgba(68, 247, 80, 0.051);
@@ -168,4 +197,5 @@
 
   .error-msg {
     font-size: 20px;
+    margin-top: 30px;
   }

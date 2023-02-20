@@ -12,6 +12,7 @@ const DOMSelectors = {
   form: document.getElementById("form"),
   input: document.getElementById("searchInput"),
   search_output: document.getElementById("search-output"),
+  id_box: document.getElementById("key-box"),
 };
 
 export { DOMSelectors };
