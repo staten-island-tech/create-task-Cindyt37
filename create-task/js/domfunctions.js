@@ -122,7 +122,7 @@ function superrare() {
                     </div>
                     <div class="brawler-descriptions">
                       <h3 class="brawler-name">${superrare.name}</h3>
-                      <h4 class="brawler-rarity" id=${superrare.rarity.name[0]}>${superrare.rarity.name}</h4>
+                      <h4 class="brawler-rarity" id=${superrare.rarity.name}>${superrare.rarity.name}</h4>
                       <h3 class="brawler-description"> ${superrare.description}</h3>
                       <h3 class="brawler-id">Brawler ID: ${superrare.id}</h3>
                       <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
