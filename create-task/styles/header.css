@@ -30,7 +30,7 @@
     background-color: transparent;
     font-weight: bolder;
 }
-.home:hover, .brawlers:hover {
+.home:hover, .brawlers:hover, #search_logo:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 0.7rem rgb(255, 255, 255);
     transition-duration: 0.7s;
