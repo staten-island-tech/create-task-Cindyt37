@@ -1,6 +1,7 @@
 .header {
-    height: 77vh;
-    background-image: url("https://cdn1.dotesports.com/wp-content/uploads/2019/06/25113651/khj.jpg");
+    height: 78vh;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/58af450eb3db2b0582612f1d/1498115690320-JKQCEQN70EQRPMLUPEVQ/image-asset.jpeg");
+    background-position: center;
 }
 
 /* Navigation Bar CSS */
@@ -44,13 +45,13 @@
     font-size: 20px;
     background-color: transparent;
     text-transform: uppercase;
-  }
-  
-  .rarityBtn {
+}
+
+.rarityBtn {
     margin-left: 15px;
     background-color: rgba(158, 200, 255, 0.9);
     border-radius: 15px;
     padding: 0.5rem 1rem;
     color:rgb(17, 8, 94);
     font-weight: bold;
-  }
+}
