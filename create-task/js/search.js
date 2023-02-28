@@ -2,35 +2,40 @@ import "../styles/search.css";
 import { DOMSelectors } from "./dom";
 
 async function displayID() {
-    try {
-        const response = await fetch("https://api.brawlapi.com/v1/brawlers");
-        const data = await response.json();
-        function displayids() {
-            data.list.forEach((key) => {
-                document.getElementById("key-box").insertAdjacentHTML("afterbegin",
-                `<div class="keys">
+  try {
+    const response = await fetch("https://api.brawlapi.com/v1/brawlers");
+    const data = await response.json();
+    function displayids() {
+      data.list.forEach((key) => {
+        document.getElementById("key-box").insertAdjacentHTML(
+          "afterbegin",
+          `<div class="keys">
                     <h3 class="key">${key.name} → ${key.id}</h3>
-                </div>`)
-            });
-        }
-        displayids();
-    } catch (error) {
-        console.log(error);
+                </div>`
+        );
+      });
     }
+    displayids();
+  } catch (error) {
+    console.log(error);
+  }
 }
 displayID();
 
 async function getData(brawlerID) {
-    try {
-        const response = await fetch(`https://api.brawlapi.com/v1/brawlers/${brawlerID}`);
-        if (response.status < 200 || response.status > 299) {
-            throw error(response);
-        } else {
-            const data = await response.json();
-            console.log(data);
-            function displaySearch() {
-                DOMSelectors.search_output.insertAdjacentHTML("beforeend",
-                `<div class="brawler-card" id="${data.name}">         
+  try {
+    const response = await fetch(
+      `https://api.brawlapi.com/v1/brawlers/${brawlerID}`
+    );
+    if (response.status < 200 || response.status > 299) {
+      throw error(response);
+    } else {
+      const data = await response.json();
+      console.log(data);
+      function displaySearch() {
+        DOMSelectors.search_output.insertAdjacentHTML(
+          "beforeend",
+          `<div class="brawler-card" id="${data.name}">         
                     <div class="brawler-imgBox">           
                         <img class="brawler-img" src="${data.imageUrl}" alt="${data.name}"/>
                     </div>         
@@ -41,20 +46,23 @@ async function getData(brawlerID) {
                         <h3 class="brawler-id"> ${data.id}</h3>
                         <a class="info-link" href="${data.link}"> ${data.link}</a>
                     </div>       
-                </div>`);
-            }
-            displaySearch();
-        }
-    } catch (error) {
-        console.log(error);
-        DOMSelectors.search_output.insertAdjacentHTML("beforeend",
-        `<div class="error-msg">Sorry, the brawler ID you inputed cannot be found. Please check and try again later.</div>`)
+                </div>`
+        );
+      }
+      displaySearch();
     }
+  } catch (error) {
+    console.log(error);
+    DOMSelectors.search_output.insertAdjacentHTML(
+      "beforeend",
+      `<div class="error-msg">Sorry, the brawler ID you inputed cannot be found. Please check and try again later.</div>`
+    );
+  }
 }
 
 DOMSelectors.form.addEventListener("submit", function (event) {
-    DOMSelectors.search_output.innerHTML = "";
-    event.preventDefault();
-    getData(DOMSelectors.input.value);
-    DOMSelectors.input.value = "";
-  });
+  DOMSelectors.search_output.innerHTML = "";
+  event.preventDefault();
+  getData(DOMSelectors.input.value);
+  DOMSelectors.input.value = "";
+});
