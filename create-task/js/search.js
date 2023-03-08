@@ -27,6 +27,7 @@ async function getData(brawlerID) {
     const response = await fetch(
       `https://api.brawlapi.com/v1/brawlers/${brawlerID}`
     );
+
     if (response.status < 200 || response.status > 299) {
       throw error(response);
     } else {
