@@ -77,7 +77,7 @@ function rare() {
       const data = await response.json(); //makes the data into JSON object so we ca use
       function displayRare() {
         data.list
-          .filter((rare) => rare.rarity.id === (2))
+          .filter((rare) => rare.rarity.id === 2)
           .forEach((rare) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
@@ -282,6 +282,7 @@ function chromatic() {
 
 function clear() {
   DOMSelectors.api_output.innerHTML = "";
+  DOMSelectors.search_output.innerHTML = "";
 }
 
 document.getElementById("reset").addEventListener("click", function () {

@@ -1,60 +1,4 @@
-.header {
-    height: 70vh;
-    background-image: url("https://www.meme-arsenal.com/memes/6010db9df4472cde7ffcd00e23b3666b.jpg");
-}
-
-.heading {
-    color: rgb(0, 60, 255);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    line-height: 1.5;
-    transform: translate(-50%, -50%);
-}
-
-.title {
-    font-size: 6rem;
-    font-weight: 500;
-    text-decoration: underline;
-}
-
-/* Navigation Bar CSS */
-.nav-bar {
-    height: 9.5vh;
-    background-color: rgb(151, 255, 167);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-}
-.logo {
-    height: 8.5vh;
-    margin-left: 2rem;
-    background-color: transparent;
-}
-.nav-btn {
-    display: flex;
-    flex-direction: row;
-    margin-top: 9px;
-    margin-right: 1rem;
-    font-size: 2rem;
-    justify-content: space-around;
-    width: 45vw;
-    background-color: transparent;
-    font-weight: bolder;
-}
-.home:hover, .brawlers:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 0.7rem rgb(255, 255, 255);
-    transition-duration: 0.7s;
-}
-
-.body {
+.searchBody {
   background-color: rgba(190, 255, 204, 0.581);
   display: flex;
   flex-direction: row;
@@ -63,22 +7,6 @@
   align-items: top;
   position: sticky;
   top: 0;
-}
-.ID-lookup-box {
-  background-color: rgba(68, 247, 80, 0.051);
-  width: 30%;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 10px solid rgba(68, 247, 80, 0.459);
-  border-radius: 10px;
-  margin-top: 20px;
-}
-.keyTitle {
-  font-size: 20px;
-}
-.keys {
-  font-size: 15px;
-  margin-left: 10px;
 }
 
 /*Search Bar*/
@@ -122,46 +50,6 @@
     margin-top: 50px;
   }
   
-  .brawler-card {
-    margin-top: 20px;
-    border: 10px solid rgba(68, 247, 80, 0.459);
-    border-radius: 25px;
-    padding: 6px;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: rgba(68, 247, 80, 0.051);
-  }
-  
-  .brawler-imgBox {
-    margin-right: 1rem;
-  }
-  .brawler-img {
-    width: 190%;
-  }
-
-  .brawler-descriptions {
-    width: 50%;
-  }
-  .brawler-name {
-    font-size: 40px;
-    color:rgb(0, 134, 31);
-  }
-  .brawler-rarity {
-    font-size: 20px;
-  }
-  .brawler-description:before {
-    color: rgb(0, 134, 31);
-    text-decoration: underline;
-    content: "Description:"
-  }
-  .brawler-id:before {
-    color: rgb(0, 134, 31);
-    text-decoration: underline;
-    content: "Brawler ID:"
-  }
   .info-link {
     font-size: 20px;
     text-decoration: underline;
@@ -171,27 +59,6 @@
   }
   .info-link:hover {
     color: blue;
-  }
-  #Common {
-    color: rgb(187, 233, 255);
-  }
-  #Rare {
-    color: rgb(97, 255, 44);
-  }
-  #Super {
-    color: rgb(97, 177, 255);
-  }
-  #Epic {
-    color: rgb(204, 87, 254);
-  }
-  #Legendary {
-    color: rgb(255, 238, 0);
-  }
-  #Mythic {
-    color: rgb(245, 93, 107);
-  }
-  #Chromatic {
-    color: rgb(241, 139, 1);
   }
 
   .error-msg {

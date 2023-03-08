@@ -62,6 +62,7 @@ async function getData(brawlerID) {
 
 DOMSelectors.form.addEventListener("submit", function (event) {
   DOMSelectors.search_output.innerHTML = "";
+  DOMSelectors.api_output.innerHTML = "";
   event.preventDefault();
   getData(DOMSelectors.input.value);
   DOMSelectors.input.value = "";
