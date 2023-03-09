@@ -74,7 +74,7 @@ function rare() {
   async function getrareBrawlers(URL_brawlers) {
     try {
       const response = await fetch(URL_brawlers);
-      const data = await response.json(); //makes the data into JSON object so we can use
+      const data = await response.json(); //makes the data into JSON object so we ca use
       function displayRare() {
         data.list
           .filter((rare) => rare.rarity.id === 2)
