@@ -7,7 +7,7 @@ const URL_brawlers = "https://api.brawlapi.com/v1/brawlers";
 async function getBrawlers(URL_brawlers) {
   try {
     const response = await fetch(URL_brawlers);
-    const data = await response.json(); //makes the data into JSON object so we can use
+    const data = await response.json(); //makes the data into JSON object so we ca use
     function displayBrawlers() {
       data.list.forEach((brawler) => {
         document.getElementById("api-output").insertAdjacentHTML(
