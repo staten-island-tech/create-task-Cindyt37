@@ -3,6 +3,7 @@ import "./domfunctions";
 import "./search";
 
 const URL_brawlers = "https://api.brawlapi.com/v1/brawlers";
+//Source of data: https://brawlify.com/
 
 async function getBrawlers(URL_brawlers) {
   try {
