@@ -21,7 +21,7 @@ async function getBrawlers(URL_brawlers) {
               <h4 class="brawler-rarity" id=${brawler.rarity.name}>${brawler.rarity.name}</h4>           
               <h3 class="brawler-description"> ${brawler.description}</h3>
               <h3 class="brawler-id">Brawler ID: ${brawler.id}</h3>
-              <h6 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h6>
+              <h4 class="id-info">To learn more about each brawler, use the ID above to search for the brawlers.</h4>
             </div>`
         );
       });

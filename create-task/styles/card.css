@@ -49,9 +49,11 @@
   }
   .brawler-rarity {
     font-size: 20px;
+    -webkit-text-stroke: 0.5px rgb(0, 18, 100);
   }
   .brawler-description {
     text-align: justify;
+    font-weight: 900;
     margin-right: 10px;
   }
   .brawler-description:before {
@@ -99,6 +101,7 @@
     background-color: rgba(68, 80, 247, 0.268);
   }
   .mainTitle {
+    margin-top: 10px;
     font-size: 25px;
     text-decoration: overline underline;
     margin-bottom: 5px;

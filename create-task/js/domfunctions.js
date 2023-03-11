@@ -11,7 +11,7 @@ function initial() {
         data.list.forEach((brawler) => {
           document.getElementById("api-output").insertAdjacentHTML(
             "afterbegin",
-            `<div class="brawler-card" id="${brawler.name}">
+            `<div class="brawler-card main" id="${brawler.name}">
                   <div class="brawler-imgBox">
                     <img class="brawler-img" src="${brawler.imageUrl}" alt="${brawler.name}"/>
                   </div>
@@ -46,7 +46,7 @@ function starter() {
           .forEach((starter) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${starter.name}">
+              `<div class="brawler-card main" id="${starter.name}">
                     <div class="brawler-imgBox">
                       <img class="brawler-img" src="${starter.imageUrl}" alt="${starter.name}"/>
                     </div>
@@ -81,7 +81,7 @@ function rare() {
           .forEach((rare) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${rare.name}">
+              `<div class="brawler-card main" id="${rare.name}">
                     <div class="brawler-imgBox">
                       <img class="brawler-img" src="${rare.imageUrl}" alt="${rare.name}"/>
                     </div>
@@ -116,7 +116,7 @@ function superrare() {
           .forEach((superrare) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${superrare.name}">
+              `<div class="brawler-card main" id="${superrare.name}">
                     <div class="brawler-imgBox">
                       <img class="brawler-img" src="${superrare.imageUrl}" alt="${superrare.name}"/>
                     </div>
@@ -151,7 +151,7 @@ function epic() {
           .forEach((epic) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${epic.name}">
+              `<div class="brawler-card main" id="${epic.name}">
                       <div class="brawler-imgBox">
                         <img class="brawler-img" src="${epic.imageUrl}" alt="${epic.name}"/>
                       </div>
@@ -186,7 +186,7 @@ function legendary() {
           .forEach((legendary) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${legendary.name}">
+              `<div class="brawler-card main" id="${legendary.name}">
                         <div class="brawler-imgBox">
                           <img class="brawler-img" src="${legendary.imageUrl}" alt="${legendary.name}"/>
                         </div>
@@ -221,7 +221,7 @@ function mythic() {
           .forEach((mythic) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${mythic.name}">
+              `<div class="brawler-card main" id="${mythic.name}">
                         <div class="brawler-imgBox">
                           <img class="brawler-img" src="${mythic.imageUrl}" alt="${mythic.name}"/>
                         </div>
@@ -256,7 +256,7 @@ function chromatic() {
           .forEach((chromatic) => {
             document.getElementById("api-output").insertAdjacentHTML(
               "afterbegin",
-              `<div class="brawler-card" id="${chromatic.name}">
+              `<div class="brawler-card main" id="${chromatic.name}">
                         <div class="brawler-imgBox">
                           <img class="brawler-img" src="${chromatic.imageUrl}" alt="${chromatic.name}"/>
                         </div>

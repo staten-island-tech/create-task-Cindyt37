@@ -53,7 +53,7 @@ async function getData(brawlerID) {
     console.log(error);
     DOMSelectors.search_output.insertAdjacentHTML(
       "beforeend",
-      `<div class="error-msg">Sorry, the brawler ID you inputed cannot be found. Please check and try again later.</div>`
+      `<div class="error-msg">Sorry, the brawler ID you inputted cannot be found. Please check and try again later.</div>`
     );
   }
 }

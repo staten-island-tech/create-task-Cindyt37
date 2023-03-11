@@ -18,7 +18,7 @@
 }
 .search {
     display: flex;
-    width: 940%;
+    width: 95%;
     margin-left: 5px;
     margin-top: 20px;
 }
@@ -27,7 +27,7 @@
     font-size: 24px;
     font-weight: bold;
     margin-right: 15px;
-    width: 940%;
+    width: 99%;
 }
 .search-bar {
     display: inherit;
@@ -63,5 +63,5 @@
 
   .error-msg {
     font-size: 20px;
-    margin-top: 30px;
+    margin-bottom: 20px;
   }
