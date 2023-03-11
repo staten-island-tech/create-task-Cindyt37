@@ -10,7 +10,7 @@ async function getData(brawlerID) {
     if (brawlerID === "16000068") {
         DOMSelectors.search_output.insertAdjacentHTML(
           "beforeend",
-          `<div class="error-msg">This is the ID for the next released brawler by Supercell. Please check again when the brawler is release.</div>`
+          `<div class="error-msg">This is the ID for the next released brawler by Supercell. Please check again when the brawler is released.</div>`
         );
       } else {
       const data = await response.json();
