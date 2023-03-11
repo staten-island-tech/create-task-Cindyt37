@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Task App</title>
-  </head>
-  <body>
-    <section class="header"></section>
 
-    <section class="nav-bar">
-      <a href="index.html"
-        ><img
-          class="logo"
-          id="home_logo"
-          src="./brawlstars logo.png"
-          alt="brawl_logo"
-      /></img></a>
-      <div class="nav-btn">
-        <a class="nav-btn home" href="index.html">Home</a>
-        <a class="nav-btn brawlers" href="#api-output">List of Brawlers</a>
-  </div>
-      </div>
-    </section>
-    
-    <section class="body">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Task App</title>
+</head>
+
+<body>
+  <section class="header"></section>
+
+  <section class="nav-bar">
+    <a href="index.html"><img class="logo" id="home_logo" src="./brawlstars logo.png" alt="brawl_logo" /></img></a>
+    <div class="nav-btn">
+      <a class="nav-btn home" href="index.html">Home</a>
+      <a class="nav-btn brawlers" href="#api-output">List of Brawlers</a>
+    </div>
+    </div>
+  </section>
+
+  <section class="body">
     <div class="main">
       <div class="rarity">
         <h4 class="filter" id="rarity">Filter by Rarity:</h4>
@@ -38,20 +34,16 @@
       </div>
     </div>
 
-        <div class="container">
-            <form class="search" id="form" action="submit">
-            <input
-                class="search-bar"
-                id="searchInput" 
-                type="text" 
-                placeholder="Search for brawlers using brawler ID...">
-            </form>
-        </div>
-        <div id="search-output"></div>
-
+    <div class="container">
+      <form class="search" id="form" action="submit">
+        <input class="search-bar" id="searchInput" type="text" placeholder="Search for brawlers using brawler ID...">
+      </form>
+    </div>
+    <div id="search-output"></div>
     <div id="api-output"></div>
   </section>
 
-    <script type="module" src="./js/main.js"></script>
-  </body>
+  <script type="module" src="./js/main.js"></script>
+</body>
+
 </html>

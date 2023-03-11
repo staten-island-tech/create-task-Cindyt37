@@ -15,18 +15,36 @@ async function getData(brawlerID) {
       function displaySearch() {
         DOMSelectors.search_output.insertAdjacentHTML(
           "beforeend",
-          `<div class="brawler-card" id="${data.name}">         
-                    <div class="brawler-imgBox">           
-                        <img class="brawler-img" src="${data.imageUrl}" alt="${data.name}"/>
-                    </div>         
-                    <div class="brawler-descriptions">           
-                        <h3 class="brawler-name">${data.name}</h3>           
-                        <h4 class="brawler-rarity" id=${data.rarity.name}>${data.rarity.name}</h4>           
-                        <h3 class="brawler-description"> ${data.description}</h3>
-                        <h3 class="brawler-id"> ${data.id}</h3>
-                        <a class="info-link" href="${data.link}"> ${data.link}</a>
-                    </div>       
-                </div>`
+          `<div class="brawler-card" id="${data.name}">
+          <div class="simple-facts">
+            <div class="brawler-imgBox">
+              <img class="brawler-img" src="${data.imageUrl}" alt="${data.name}" />
+            </div>
+            <div class="brawler-descriptions">
+              <h3 class="brawler-name">${data.name}</h3>
+              <h4 class="brawler-rarity" id=${data.rarity.name}>${data.rarity.name}</h4>
+              <h3 class="brawler-description"> ${data.description}</h3>
+              <h3 class="brawler-id"> ${data.id}</h3>
+              <a class="info-link" href="${data.link}"> ${data.link}</a>
+            </div>
+          </div>
+          <div class="complex-facts">
+            <div class="star-powers">
+              <h2 class="mainTitle star">Star Powers</h2>
+              <h3 class="complex_title">${data.starPowers[0].name}</h3>
+              <h4 class="complex_words">${data.starPowers[0].description}</h3>
+              <h3 class="complex_title">${data.starPowers[1].name}</h3>
+              <h4 class="complex_words">${data.starPowers[1].description}</h3>
+            </div>
+            <div class="gadgets">
+            <h2 class="mainTitle gadget">Gadgets</h2>
+              <h3 class="complex_title">${data.gadgets[0].name}</h3>
+              <h4 class="complex_words">${data.gadgets[0].description}</h3>
+              <h3 class="complex_title">${data.gadgets[1].name}</h3>
+              <h4 class="complex_words">${data.gadgets[1].description}</h3>
+            </div>
+          </div>
+        </div>`
         );
       }
       displaySearch();

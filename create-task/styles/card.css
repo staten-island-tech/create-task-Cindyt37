@@ -15,15 +15,29 @@
     border-radius: 25px;
     padding: 6px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 40%;
     text-align: center;
     margin-bottom: 20px;
     background-color: rgba(68, 80, 247, 0.268);
   }
+  .main {
+    flex-direction: row;
+  }
   
+  .simple-facts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(68, 80, 247, 0.268);
+  }
   .brawler-imgBox {
     margin-right: 1rem;
+    margin-top: 10px;
   }
   
   .brawler-descriptions {
@@ -38,6 +52,7 @@
   }
   .brawler-description {
     text-align: justify;
+    margin-right: 10px;
   }
   .brawler-description:before {
     color: rgb(0, 46, 146);
@@ -73,4 +88,48 @@
   #Chromatic {
     color: rgb(241, 139, 1);
   }
+
+  .complex-facts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: bottom;
+    margin-bottom: 20px;
+    background-color: rgba(68, 80, 247, 0.268);
+  }
+  .mainTitle {
+    font-size: 25px;
+    text-decoration: overline underline;
+    margin-bottom: 5px;
+    color: rgb(0, 39, 122);
+  }
+  .star {
+    color: rgba(252,208,0,255);
+  }
+  .gadget {
+    color: rgba(49,146,0,255);
+  }
+  .star-powers {
+    width: 50%;
+    color:rgb(0, 46, 146);
+    margin-right: 5px;
+  }
+ .gadgets {
+    width: 50%;
+    color:rgb(0, 46, 146);
+    margin-left: 5px;
+  }
+  .complex_title {
+    font-size: 1rem;
+    color:rgb(0, 46, 146);
+    text-decoration: underline;
+  }
+  .complex_words {
+    font-size: 0.75rem;
+    color:rgb(0, 0, 0);
+    margin-bottom: 10px;
+  }
+
+
   
