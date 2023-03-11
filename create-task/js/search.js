@@ -13,7 +13,7 @@ async function getData(brawlerID) {
           `<div class="error-msg">This is the ID for the next released brawler by Supercell. Please check again when the brawler is release.</div>`
         );
       } else {
-        const data = await response.json();
+      const data = await response.json();
       console.log(data);
       function displaySearch() {
         DOMSelectors.search_output.insertAdjacentHTML(
