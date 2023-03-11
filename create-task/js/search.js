@@ -7,10 +7,13 @@ async function getData(brawlerID) {
       `https://api.brawlapi.com/v1/brawlers/${brawlerID}`
     );
 
-    if (response.status < 200 || response.status > 299) {
-      throw error(response);
-    } else {
-      const data = await response.json();
+    if (brawlerID === "16000068") {
+        DOMSelectors.search_output.insertAdjacentHTML(
+          "beforeend",
+          `<div class="error-msg">This is the ID for the next released brawler by Supercell. Please check again when the brawler is release.</div>`
+        );
+      } else {
+        const data = await response.json();
       console.log(data);
       function displaySearch() {
         DOMSelectors.search_output.insertAdjacentHTML(
@@ -48,15 +51,14 @@ async function getData(brawlerID) {
         );
       }
       displaySearch();
-    }
+      }
   } catch (error) {
     console.log(error);
     DOMSelectors.search_output.insertAdjacentHTML(
       "beforeend",
       `<div class="error-msg">Sorry, the brawler ID you inputted cannot be found. Please check and try again later.</div>`
     );
-  }
-}
+  }};
 
 DOMSelectors.form.addEventListener("submit", function (event) {
   DOMSelectors.search_output.innerHTML = "";
