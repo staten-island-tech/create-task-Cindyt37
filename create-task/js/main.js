@@ -1,3 +1,5 @@
+//main.js
+
 import "../styles/main.css";
 import "./domfunctions";
 import "./search";
